@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  font-weight: bolder;
+
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 0.1em;
+}
+
+footer {
+  height: 24px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+section {
+  height: 1000px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+section.imagemFlor {
+  background-image: url(./imagens/background001.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.imagemLivro {
+  background-image: url(./imagens/background002.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section div {
+  font-size: 1.8em;
+  position: absolute;
+  left: 3%;
+  margin-top: 5%;
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+
+div.imagem {
+  background-color: rgba(0, 0, 0, 0.24);
+  color: white;
+  padding-right: 30px;
+}
+
+@media (max-width: 700px) {
+  header {
+    height: 130px;
+  }
+
+  section div {
+    margin-top: 15%;
+  }
+
+}
+
+@media (max-width: 470px) {
+  header {
+    height: 160px;
+  }
+
+
+}
