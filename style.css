@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 a {
@@ -34,22 +34,26 @@ footer {
 }
 
 section {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
   padding: 50px;
 }
 
-section.imagemFlor {
+section.imagemFlor{
   background-image: url(./imagens/background001.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.329);
+  background-attachment: fixed;
 }
 
-section.imagemLivro {
+section.imagemLivro{
   background-image: url(./imagens/background002.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.329);
+  background-attachment: fixed;
+
 }
 
 section div {
@@ -64,6 +68,7 @@ div.imagem {
   background-color: rgba(0, 0, 0, 0.24);
   color: white;
   padding-right: 30px;
+
 }
 
 
