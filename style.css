@@ -34,8 +34,8 @@ footer {
 }
 
 section {
-  height: 1000px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+  padding: 50px;
 }
 
 section.imagemFlor {
@@ -53,13 +53,11 @@ section.imagemLivro {
 }
 
 section div {
-  font-size: 1.8em;
-  position: absolute;
   left: 3%;
-  margin-top: 5%;
-  padding: 10px;
   font-family: 'Pacifico', cursive;
-  font-size: 2em;
+  font-size: 1.5em;
+  max-width: 30%;
+  padding: 15px;
 }
 
 div.imagem {
@@ -68,21 +66,63 @@ div.imagem {
   padding-right: 30px;
 }
 
-@media (max-width: 700px) {
-  header {
-    height: 130px;
-  }
 
+
+
+/*-------MEDIA-----------*/
+@media (max-width: 1200px){
   section div {
-    margin-top: 15%;
+    max-width: 40%;
   }
-
 }
 
-@media (max-width: 470px) {
+
+@media (max-width: 1006px){
+  section div {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 890px){
+  section div {
+    font-size: 1.2em;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 750px){
+  section div {
+    font-size: 1.0em;
+    max-width: 40%;
+  }
+}
+
+
+@media (max-width: 750px){
+  section div {
+    font-size: .6em;
+    max-width: 50%;
+  }
   header {
-    height: 160px;
+    height: 80px;
   }
 
+  header h1 {
+    font-size: 1.5em;
+  }
+}
 
+@media (max-width: 500px){
+  section div {
+    font-size: .5em;
+    max-width: 60%;
+  }
+ 
+  header {
+    height: 80px;
+}
+
+  header h1 {
+    font-size: 1.5em;
+  }
 }
